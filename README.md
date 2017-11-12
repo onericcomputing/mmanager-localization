@@ -1,2 +1,2 @@
 # mmanager-localization
-m'Manager Language Files
+_m'Manager Language Files_
