@@ -1094,3 +1094,47 @@ $lang['message_payment_gateway'] = "Completați detaliile metodelor dumneavoastr
 $lang['message_users_settings'] = "Gestiunea utilizatorilor";
 // 1.6
 $lang['password_message'] = "Intrați într-o zonă restricționată. Trebuie să confirmați parola pentru a continua";
+$lang['label_from'] = "From";
+$lang['label_to'] = "To";
+$lang['message_end_recurring'] = "You can define a end date";
+$lang['tooltip_recurring_item'] = "Green indicates recurring items";
+$lang['date_shipping_date'] = "Shipping";
+$lang['message_check_to_notify_provider'] = "Check to notify immediatly the provider";
+
+// 1.7
+$lang['subject_purchase_order'] = "New Purchase Order";
+$lang['btn_provider_account'] = "My Provider Account";
+$lang['subject_paid_purchase_order'] = "Purchase Order Paid";
+$lang['link_sales_order'] = "Sale Order";
+$lang['sales_sales'] = "Sales";
+$lang['sales_sale'] = "Sale";
+$lang['label_sale_order_prefix'] = "Sale Order";
+$lang['sale_order_prefix_short'] = "SO";
+$lang['label_purchase'] = "Purchase";
+$lang['label_purchase_order'] = "Purchase Order";
+$lang['header_provider_purchases'] = "All Purchases";
+$lang['placeholder_shipping_amount'] = "Shipping Amount";
+$lang['message_provider_can_update_value'] = "Provider can set/update this value";
+$lang['placeholder_other_expenses'] = "Other Expenses";
+$lang['label_shipping_amount'] = "Shipping Amount";
+$lang['label_received'] = "Received";
+$lang['label_shipment_status'] = "Shipment";
+$lang['message_stock_updated'] = "The Purchase Order is marked received. The On Hand Stock has been updated for each item. You can check these values in Stock Tab.";
+// 1.7.2
+$lang['message_enter_purchase_code'] = "Register your purchase code from Codecanyon.net to continue. Without a valid license, the app will break at anytime";
+$lang['label_enable_sale_order'] = "Enable Sale Order";
+$lang['message_enable_sale_order'] = "In some countries, Invoices are issued for Professionnal and Sale Order for Individuals. Check this box if you need Sale Orders.";
+$lang['subject_order_generated'] = "New Sale Order";
+$lang['message_has_barcode'] = "Yes, generate Barcode";
+$lang['message_has_qrcode'] = "Yes, generate QR Code";
+$lang['section_barcode_qrcode'] = "Manage QR Code & Barcode";
+$lang['message_intered_in_our_products'] = "Interested in our products ?";
+$lang['label_contact_us'] = "Contact Us";
+$lang['label_barcode'] = "Barcode";
+$lang['label_qrcode'] = "QR Code";
+$lang['error_is_unique_sku_name'] = "The item sku or name is already in use.";
+$lang['label_actions'] = "Actions";
+$lang['message_qrbar_code_generated_successfuly'] = "Great ! All QR Code and Barcode have been generated successfuly";
+$lang['link_generate_qrbar_code'] = "Generate Barcode & QR Code";
+$lang['prompt_generate_qrbar_code_warning_message'] = "You are about to generate QR Code and Barcode for selected items.";
+$lang['prompt_confirm_generate'] = "Let's Do It !";
