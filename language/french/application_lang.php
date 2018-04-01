@@ -1117,7 +1117,7 @@ $lang['label_received'] = "Reçu";
 $lang['label_shipment_status'] = "Livraison";
 $lang['message_stock_updated'] = "Cette commande a été reçue. Le stock disponible est mis à jour. Vous pouvez vérifier les données sous l'onglet Stock.";
 // 1.7.2
-$lang['message_enter_purchase_code'] = "Enregistrez la licence contenue dans le dossier reçu de Codecanyon.net. A défaut d'une licence valide, l'application pourra s'arrêter à tout moment.";
+$lang['message_enter_purchase_code'] = "Enregistrez la licence contenue dans le dossier de téléchargement. A défaut d'une licence valide, l'application pourra s'arrêter à tout moment.";
 $lang['message_has_barcode'] = "Oui, générer des Codes-barres";
 $lang['message_has_qrcode'] = "Oui, générer des QR codes";
 $lang['section_barcode_qrcode'] = "Gérer les QR Codes & Codes barres";
@@ -1241,9 +1241,18 @@ $lang['label_start_go'] = "Stop & Go";
 $lang['message_start_go'] = "Cochez / Décochez une ligne pour démarrer / arrêter un chrono. Puisque le système fonctionne en arrière-plan, vous n'avez pas à vous accuper d'enregistrer les données. Vous pouvez même vous déconnecter du système ou éteindre votre machine sans interrompre les chronos actifs dès lors que les cookies ne sont pas supprimés.";
 
 // Report
-$lang['label_income_per_product'] = "Recettes par article";
+$lang['label_income_per_product'] = "Par article";
 $lang['message_income_per_product'] = "Toutes vos recettes par article";
-$lang['label_income_per_service'] = "Recettes par service";
+$lang['label_income_per_service'] = "Par service";
 $lang['message_income_per_service'] = "Toutes vos recettes par service";
-$lang['label_income_per_client'] = "Recettes par Client";
-$lang['message_income_per_client'] = "Recettes par Client";
+$lang['label_income_per_customer'] = "Par Client";
+$lang['message_income_per_customer'] = "Recettes par Client";
+$lang['message_no_data_available'] = "Aucune donnée disponible...";
+$lang['message_income_per_customer'] = "Toutes vos recettes par client";
+$lang['label_income_annual'] = "Annuelles";
+$lang['message_income_annual'] = "Toutes vos recettes par année";
+$lang['label_income_forecast'] = "Prévisionnelles";
+$lang['message_income_forecast'] = "Les recettes actuelles et à venir";
+$lang['label_year'] = "Année";
+$lang['label_quantity_sold'] = "Quantité vendue";
+$lang['message_income_forecast_help'] = "Cette fonction vous permet d'avoir une idée précise de l'évolution de votre chiffre d'affaires à partir des factures actuelles et de celles qui restent à acquitter. Cela implique que toutes les factures acquittées, impayées ou en retard seront prises en compte. Les factures récurrentes qui ne sont pas encore visibles dans le système ne sont pas concernées. Le champ Échéance permet d'afficher les factures regroupées par mois. Par défaut la courbe du chiffre d'affaires TTC est désactivée.";
