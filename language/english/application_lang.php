@@ -840,6 +840,9 @@ $lang['message_refund_failed'] = "The refund failed. Please try again.";
 $lang['message_refresh_after_refund'] = "After refunds, please refresh this page to update values.";
 $lang['message_coming_soon'] = "Coming Soon!";
 
+// 10/06
+840	$lang['message_pipe_char'] = "Do not use `|` character.";
+
 // 13/ 06
 $lang['option_quarterly'] = "Quarterly";
 $lang['option_half_yearly'] = "Semi-Annually";
