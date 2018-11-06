@@ -50,9 +50,6 @@ $lang['link_services'] = "Servicios";
 $lang['link_providers'] = "Proveedores";
 $lang['link_invoices'] = "Facturas";
 $lang['link_quotes'] = "Presupuestos";
-$lang['message_hide_chart'] = "Información Grafica";
-$lang['message_administrative_email']="Email del Administrador";
-$lang['label_chamber_commerce_id']="Código Camara de Comercio";
 $lang['label_address'] = "Dirección";
 $lang['link_charges'] = "Gastos";
 $lang['link_purchase_orders'] = "Orden de Compra";
@@ -137,6 +134,11 @@ $lang['message_income_edit_disable'] = " No puede cambiar el valor de ingreso re
 $lang['message_add_file'] = "Añadir un adjunto";
 $lang['message_no_tax_applied'] = "Sin impuesto aplicado";
 $lang['message_cron'] = " El System Cron automatiza las tareas dentro de m'Manager. Debe configurarse para ejecutarse cada 5 minutos, o tan frecuentemente como lo permita su proveedor de alojamiento web. Encuentre a continuación su comando cron listo para usar ";
+$lang['message_cron_done_successfuly'] = "Todos los trabajos cron realizados con éxito!";
+$lang['message_administrative_email']="Email del Administrador";
+$lang['message_hide_chart'] = "Para ocultar una categoría, haga clic en su etiqueta debajo de los gráficos.";
+$lang['message_client_location'] = "La geolocalización es activa para clientes en el mismo país que la empresa.";
+$lang['message_upload_avatar_size'] = "Sugerimos una imagen cuadrada de 750x750 para tu perfil.";
 // ===========================================    ===================================================
 // =========================================== FORMS LABELS ===============================================
 $lang['label_invoice_subject'] = "Factura de";
@@ -171,6 +173,7 @@ $lang['label_phone'] = "Numero de teléfono";
 $lang['label_email'] = "Email";
 $lang['label_client_type'] = "Tipo";
 $lang['label_status'] = "Estado";
+$lang['label_address'] = "Dirección";
 $lang['label_address_1'] = "Dirección 1";
 $lang['label_address_2'] = "Dirección 2";
 $lang['label_city'] = "Ciudad";
@@ -238,6 +241,7 @@ $lang['label_company_name'] = "Nombre de la empresa";
 $lang['label_business_name'] = "Nombre del negocio";
 $lang['label_administration'] = "Administración";
 $lang['label_company_siret_ID'] = "Identificación Siret de la Empresa";
+$lang['label_chamber_commerce_id']="Código Camara de Comercio";
 $lang['label_company_legal_naf_code'] = "Código NAF de la Empresa";
 $lang['label_company_legal_rcs_code'] = "Código RCS de la Empresa";
 $lang['label_company_registrar_city'] = "Ciudad de Registro";
@@ -247,7 +251,7 @@ $lang['label_capital_amount'] = "Cantidad de Capital";
 $lang['label_contact_firstname'] = "Nombre";
 $lang['label_contact_lastname'] = "Apellido";
 $lang['label_website'] = "Website";
-$lang['label_mobile_phone'] = "Telefono Celular";
+$lang['label_mobile_phone'] = "Teléfono móvil";
 $lang['label_general'] = "General";
 $lang['label_numbering_currency'] = "Numeración y Moneda";
 $lang['label_numbering'] = "Numeración";
@@ -488,13 +492,11 @@ $lang['error_required_last_name'] = "Apellidos obligatorios";
 $lang['error_required_item_not_created'] = "Debería añadir algún articulo antes de crear una factura.";
 $lang['error_email_exists'] = "Este mail ya ha sido usado";
 $lang['error_required_sku'] = "Código requerido";
-
 // =========================================== EMAILS ===================================================
 $lang['subject_payment_confirmation'] = "Confirmación de Pago";
 $lang['subject_invoice_generated'] = "Su Factura";
 $lang['subject_quote_approved'] = "Presupuesto Aprobada";
 $lang['subject_quote_generated'] = "Su Presupuesto";
-
 // =========================================== INVOICES ===================================================
 // =========================================== INVOICES ===================================================
 // =========================================== COUNTRIES ===================================================
