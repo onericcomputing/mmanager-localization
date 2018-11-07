@@ -1561,3 +1561,4 @@ $lang['message_fixed_discount_amount'] = "You can apply a fixed discount amount 
 $lang['label_irpf'] = "IRPF";
 $lang['label_surcharge'] = "Surcharge";
 $lang['label_fiscal_code'] = "Fiscal code";
+$lang['link_documentation'] = "Documentation";
