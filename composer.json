@@ -1,0 +1,12 @@
+{
+    "name": "onericcomputing/mmanager-localization",
+    "description": "m'Manager Languages Files",
+    "keywords": ["mmanager", "composer", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Claver AKAFFOU",
+            "email": "akaffou.eric@me.com"
+        }
+    ]
+}
