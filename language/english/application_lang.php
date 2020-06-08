@@ -1814,7 +1814,3 @@ $lang['label_vat_inclusive'] = "Price VAT Inclusive";
 $lang['label_the_right_way'] = "Use it the Right Way";
 $lang['message_item_service_the_right_way'] = "You can define in settings a default tax rate that applies to items and services. Option is given here to set the purchase price and define a profit rate. The system will then compute the selling price for you. You can choose to set a price VAT inclusive. For a better precision in computations, don't edit the generated VAT exclusive price. It is recommended to keep 4 digits at least so that rounding won't be greater than 0.001.";
 $lang['message_rounding_note'] = "Rounding can be an issue when dealing with large numbers and additionnal taxes that apply before or after VAT. Sometimes you just want to sell at $9.99 VAT inclusive. That's why all digits are now kept client side before final rounding server side. Don't worry about additionnal zeros or digits in forms. You'll have more accurate results than Neil Armstrong landing on the moon.";
-$lang['label_server_side_pagination'] = "Server Side Processing";
-$lang['message_enable_server_side_pagination'] = "When dealing with large dataset, tables may be slow. Enable this option to process server side. You'll then load data on demand and speed up rendering for +100K rows. You can define tables default size in settings. Please note that this feature is still in Beta. Sorting, ordering and searching may not work as expected.";
-$lang['label_beta'] = "Beta";
-$lang['label_tables_default_size'] = "Tables default size";
